@@ -8,6 +8,6 @@ cockroachSpeed(1.08) == 30
 Note! The input is a Real number (actual type is language dependent) and is >= 0. The result should be an Integer.
 */
 
-function cockroachSpeed(s) {
-  //Good Luck!
+const cockroachSpeed = (s) => {
+  return Math.floor(s / 60 * 100000 / 60);
 }
